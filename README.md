@@ -1,4 +1,4 @@
-# Meat - Angular App Starter
+# Projeto - Uninove
 
 ## 1. Passos para começar
 
@@ -141,6 +141,3 @@ Dependências dos pacotes que devem ficar em package.json:
   "webdriver-manager": "12.0.6"
 }
 ```
-## Créditos
-
-Todas as imagens usadas na aplicação são pertencentes a freepik.com
