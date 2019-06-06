@@ -1,0 +1,28 @@
+<!-- INICIO DO CONTEUDO -->
+<section class="content-header">
+</section>
+
+<section class="content">
+  <div class="jumbotron" style="background-color:rgba(255, 255, 255, 0.9222)">
+    <img src="../../assets/img/order-summary.png" width="250px" height="200px" />
+    <h2>Pedido Conluído</h2>
+    <p>Seu pedido foi recebido pelo restaurante. Prepare a mesa!</p>
+    <p>
+      <b>Avalie</b> sua experiência:</p>
+    <p>
+      <mt-rating (rated)="rated = true"></mt-rating>
+    </p>
+    <p [hidden]="!rated">
+      Obrigado pela sua avaliação!
+      <img width="25px" height="25px" style="margin-bottom:9px" src="../../assets/joinha-icon.png" />
+      <br> Clique
+      <b>
+        <a [routerLink]="['/restaurantes']">AQUI</a>
+      </b> caso queira realizar outro pedido!
+      <img width="28px" height="28px" style="margin-bottom:5px" src="../../assets/img/voltarCarrinho.png" />
+
+    </p>
+  </div>
+
+</section>
+<!-- FIM DO CONTEUDO -->

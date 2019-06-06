@@ -1,0 +1,12 @@
+Processos para abrir aplicação
+
+Requisitos:
+	Angular > 4
+	Node.js
+
+Após ter feito o clone do projeto pelo git, fazer a instalação das bibliotecas pelo terminal:
+	npm install ou npm i
+
+Para executar a aplicação executar os seguintes comandos em terminais distintos:
+	ng serve -> no endereço do projeto (Starta o projeto e gera o localhost para o browser)
+	json-server --watch db.json -> no endereço do projeto (Starta o bancod e dando e gera o localhost para acesso)

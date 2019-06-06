@@ -1,0 +1,242 @@
+{
+  "restaurantes": [
+    {
+      "id": "rest01",
+      "cidade": "Ribeirão Preto",
+      "address": "Rua Piauí, 517 - Ipiranga",
+      "cep": "14060-530",
+      "deliveryEstimate": "40-65m",
+      "rating": 4.9,
+      "imagePath": "assets/img/restaurants/rest01.png",
+      "about": "Pendente 01",
+      "hours": "Funciona de segunda à sexta, de 8h às 23h"
+    },
+    {
+      "id": "rest02",
+      "cidade": "Taboão da Serra",
+      "address": "Rua Sebastião de Souza Silva, 1226 - Parque Laguna",
+      "cep": "06795-030",
+      "deliveryEstimate": "40-65m",
+      "rating": 4.7,
+      "imagePath": "assets/img/restaurants/rest02.png",
+      "about": "Pendente 02",
+      "hours": "Funciona de segunda à sexta, de 8h às 23h"
+    },
+    {
+      "id": "rest03",
+      "cidade": "Itapeva",
+      "address": "Rua Salvador Rodrigues Faria, 457 - São Camilo",
+      "cep": "18408-340",
+      "deliveryEstimate": "40-65m",
+      "rating": 4.5,
+      "imagePath": "assets/img/restaurants/rest03.png",
+      "about": "Pendente 03",
+      "hours": "Funciona de segunda à sexta, de 8h às 23h"
+    },
+    {
+      "id": "rest04",
+      "cidade": "Santo André",
+      "address": "Rua Alexandre Herculano, 765 - Jardim Utinga",
+      "cep": "09230-750",
+      "deliveryEstimate": "40-65m",
+      "rating": 4.8,
+      "imagePath": "assets/img/restaurants/rest04.png",
+      "about": "Pendente 04",
+      "hours": "Funciona de segunda à sexta, de 8h às 23h"
+    },
+    {
+      "id": "rest05",
+      "cidade": "Taubaté",
+      "address": "Rua Octávio Alves Corrêa, 123 - Chácara São Silvestre",
+      "cep": "12085-110",
+      "deliveryEstimate": "40-65m",
+      "rating": 4.9,
+      "imagePath": "assets/img/restaurants/rest05.png",
+      "about": "Pendente 05",
+      "hours": "Funciona de segunda à sexta, de 8h às 23h"
+    },
+    {
+      "id": "rest06",
+      "cidade": "Sorocaba",
+      "address": "Rua Alameda das Estrelas, 1126 - Jardim Renascer",
+      "cep": "18079-788",
+      "deliveryEstimate": "40-65m",
+      "rating": 4.7,
+      "imagePath": "assets/img/restaurants/rest06.png",
+      "about": "Pendente 06",
+      "hours": "Funciona de segunda à sexta, de 8h às 23h"
+    }
+  ],
+  "menu": [
+    {
+      "id": "Bacon",
+      "imagePath": "assets/img/foods/img01.png",
+      "name": "Bacon",
+      "description": "Fatias de Bacon cobertas com mussarela, azeitonas e molho de tomate.",
+      "price": 8.7,
+      "restaurantId": "rest01"
+    },
+    {
+      "id": "Canadense",
+      "imagePath": "assets/img/foods/img02.jpg",
+      "name": "Canadense",
+      "description": "Mussarela, coberta por presunto, carne e alguns vegetais.",
+      "price": 2.5,
+      "restaurantId": "rest01"
+    },
+    {
+      "id": "A moda da Casa",
+      "imagePath": "assets/img/foods/img03.jpg",
+      "name": "Casa",
+      "description": "Mussarela, cobertas por fatias de bacon e manjericão, e molho de tomate.",
+      "price": 15.9,
+      "restaurantId": "rest01"
+    },
+    {
+      "id": "Pepperoni",
+      "imagePath": "assets/img/foods/img04.jpg",
+      "name": "Pepperoni",
+      "description": "Mussarela coberta por fatias de pepperoni e molho de tomate.",
+      "price": 15.9,
+      "restaurantId": "rest02"
+    },
+    {
+      "id": "Calabresa",
+      "imagePath": "assets/img/foods/img05.png",
+      "name": "Calabresa  ",
+      "description": "BCalabresa e molho de tomate.",
+      "price": 5.5,
+      "restaurantId": "rest02"
+    },
+    {
+      "id": "Frango com Mussarela",
+      "imagePath": "assets/img/foods/img07.png",
+      "name": "Mussarela",
+      "description": "Frango coberto com mussarela, milho, azeitonas e molho de tomate.",
+      "price": 4.5,
+      "restaurantId": "rest02"
+    },
+    {
+      "id": "Frango com Requeijão",
+      "imagePath": "assets/img/foods/img08.png",
+      "name": "Requeijão",
+      "description": "Frango coberto com mussarela, requeijão, azeitonas e molho de tomate.",
+      "price": 9.9,
+      "restaurantId": "rest03"
+    },
+    {
+      "id": "Calabresa com Bacon",
+      "imagePath": "assets/img/foods/img05.png",
+      "name": "Bacon",
+      "description": "Calabresa com fatias de Bacon, azeitonas e molho de tomate.",
+      "price": 12.5,
+      "restaurantId": "rest03"
+    },
+    {
+      "id": "Beijinho",
+      "imagePath": "assets/img/foods/img10.png",
+      "name": "Beijinho",
+      "description": "Beijinho com leite condensado.",
+      "price": 10.5,
+      "restaurantId": "rest04"
+    },
+    {
+      "id": "Sensação",
+      "imagePath": "assets/img/foods/img11.png",
+      "name": "Sensação",
+      "description": "Chocolate com morangos.",
+      "price": 33.9,
+      "restaurantId": "rest04"
+    },
+    {
+      "id": "Mussarela",
+      "imagePath": "assets/img/foods/img12.png",
+      "name": "Mussarela",
+      "description": "Mussarela, azeitonas e molho de tomate.",
+      "price": 21.5,
+      "restaurantId": "rest05"
+    },
+    {
+      "id": "Atum com Mussarela",
+      "imagePath": "assets/img/foods/img13.png",
+      "name": "Atum com Mussarela",
+      "description": "Atum coberto com mussarela, azeitonas e molho de tomate.",
+      "price": 1.5,
+      "restaurantId": "rest05"
+    },
+    {
+      "id": "Bauru",
+      "imagePath": "assets/img/foods/img14.png",
+      "name": "Bauru",
+      "description": "Presunto coberto com mussarela, rodelas de tomate, e molho de tomate.",
+      "price": 5.5,
+      "restaurantId": "rest06"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Kária",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4.5,
+      "comments": "Ótimo! Tive um atendimento excelente, a pizza não demorou a chegar, e não tinha nenhum defeito, além de o ambiente ser bem fresco e confortável.",
+      "restaurantId": "rest01"
+    },
+    {
+      "name": "Rebeca",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4,
+      "comments": "Muito Bom! O atendimento foi excelente, a pizza demorou um pouco a chegar, porém estava perfeita sem nenhum defeito.",
+      "restaurantId": "rest01"
+    },
+    {
+      "name": "Carlos",
+      "date": "2016-12-12T18:25:43",
+      "rating": 3.5,
+      "comments": "Bom! Demorou um pouco para que eu pudesse ser atendido, a pizza demorou um pouco a chegar, no entanto estava excelente, e o ambiente aprazível.",
+      "restaurantId": "rest04"
+    },
+    {
+      "name": "Lucas",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4,
+      "comments": "Bom! O atendimento demorou um pouco, a pizza chegou rapidamente, porém tinha alguns defeitos, o ambiente estava confortável.",
+      "restaurantId": "rest05"
+    },
+    {
+      "name": "Edmilson",
+      "date": "2016-12-12T18:25:43",
+      "rating": 2.5,
+      "comments": "Bom! O atendimento foi perfeito, a pizza demorou a chegar, continha pequenos defeitos, porém o ambiente estava confortável.",
+      "restaurantId": "rest02"
+    },
+    {
+      "name": "Vinícius",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.5,
+      "comments": "Muito Bom! O atendimento foi ótimo, as esfihas, demoraram um pouco a chegar, porém estavam perfeitas, e o ambiente estava extremamente agradável.",
+      "restaurantId": "rest03"
+    },
+    {
+      "name": "Silvia",
+      "date": "2017-02-02T18:25:43",
+      "rating": 5,
+      "comments": "Muito Bom! O atendimento foi realizado rapidamente, as pizzas chegaram no prazo estimado, e estavam em perfeitas condições, o ambiente estava um pouco quente, mas aprazível.",
+      "restaurantId": "rest04"
+    },
+    {
+      "name": "Larissa",
+      "date": "2017-02-02T18:25:43",
+      "rating": 4.8,
+      "comments": "Ótimo! Fui atendido rapidamente e atenciosamente, as esfihas chegaram no prazo estimado, e estavam muito boas, o ambiente estava aconchegante.",
+      "restaurantId": "rest04"
+    },
+    {
+      "name": "David",
+      "date": "2017-02-02T18:25:43",
+      "rating": 5,
+      "comments": "Ótimo! O atendimento foi realizado eficientemente, a pizza chegou dentro do prazo estimulado, e também as mesmas estavam em ótimas condições, além de o ambiente fornecer significativa confortabilidade.",
+      "restaurantId": "rest06"
+    }
+  ],
+  "orders": [ ]
+}

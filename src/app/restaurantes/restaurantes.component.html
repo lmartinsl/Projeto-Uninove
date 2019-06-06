@@ -1,0 +1,25 @@
+<!-- INíCIO do CONTEÚDO -->
+<div class="espacoTitulo1">
+  <section class="content-header">
+
+    <p class="tituloRest">Restaurantes - Lá Quinta Pizzaria</p>
+    <p></p>
+    <p class="tituloRest1">Filiais de São Paulo - SP</p>
+
+  </section>
+
+  <section class="content">
+    <div class="row">
+
+      <div *ngFor="let restaurante of restaurantes" class="col-sm-6 col-xs-12">
+
+        <mt-restaurante [restaurante]="restaurante"></mt-restaurante>
+
+      </div>
+
+    </div>
+
+  </section>
+</div>
+
+<!-- FIM  do CONTEÚDO -->
