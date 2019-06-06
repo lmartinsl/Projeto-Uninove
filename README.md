@@ -22,7 +22,7 @@
 
 ### Iniciando o serviço (raiz da aplicação)
 
-`json-server db.json`
+`json-server --watch db.json`
 
 ## Goodies
 
